@@ -16,3 +16,8 @@ docker run -d --name jupyter -p 18888:8888 --restart=unless-stopped jupyter/demo
 
 #### Docker Link
 - http://dev.abaccusapi.com.br:18888/lab?token=
+
+```shell
+kaggle datasets download -d uciml/iris
+kaggle datasets download -d anmolkumar/health-insurance-cross-sell-prediction
+```
