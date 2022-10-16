@@ -15,9 +15,12 @@ docker run -d --name jupyter -p 18888:8888 --restart=unless-stopped jupyter/demo
 ```
 
 #### Docker Link
-- http://dev.abaccusapi.com.br:18888/lab?token=
+- http://dev.abaccusapi.com.br:18888/lab?token=2066e7a3b48d7e557a625c7bac3d08829ce31990ffda4d9a
+
 
 ```shell
 kaggle datasets download -d uciml/iris
 kaggle datasets download -d anmolkumar/health-insurance-cross-sell-prediction
 ```
+
+https://medium.com/swlh/using-and-calling-an-api-with-python-494a18cb1f44
